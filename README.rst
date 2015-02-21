@@ -4,9 +4,18 @@ MongoDB Flask API
 
 A simple API built on top of MongoDB and Flask
 
-* Free software: BSD license
+Install
+-------
 
-Features
---------
+```pip install -e .```
 
-* TODO
+Test
+----
+
+```tox```
+
+Run
+---
+
+```run```
+```curl http://127.0.0.1:5000/api/hello```

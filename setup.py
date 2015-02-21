@@ -36,6 +36,9 @@ setup(
     package_dir={'api':
                  'src'},
     include_package_data=True,
+    entry_points={
+        'console_scripts': ['run=src.cli:run'],
+    },
     install_requires=requirements,
     license="BSD",
     zip_safe=False,
