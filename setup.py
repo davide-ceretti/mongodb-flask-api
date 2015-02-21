@@ -16,6 +16,7 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     'flask==0.10.1',
+    'Flask-PyMongo==0.3.0',
 ]
 
 test_requirements = [
